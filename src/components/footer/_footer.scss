@@ -1,0 +1,19 @@
+.footer {
+    color: #DDD;
+    width: 100%;
+    &-content {
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+            color: #DDD;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+                color: #DDD;
+            }
+        }
+    }
+}

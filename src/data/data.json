@@ -1,0 +1,25 @@
+{
+    "title": "Conflux",
+    "hero": {
+      "text": "We use talent and technology to design and build startups globally",
+      "background": "#FFF"
+    },
+    "aboutUs": {
+      "title": "Who we are",
+      "mainText": "We are your technical co-founders",
+      "subText": [
+        {"text": "We are a small team of individuals that brings together talents from Product Development, Software Engineering and UI/UX design."},
+        {"text": "Our mission is to make products that will bring delightful experiences to our users and apps that deliver revenue."}
+      ],
+      "background": "#1E1E1E"
+    },
+    "whatWeDo": {
+      "title": "Why we're here",
+      "mainText": "We work with founders around the globe",
+      "subText": [
+        {"text": "“Conflux”, is another term for confluence, which means “the process of merging”."},
+        {"text": "In that note, we are here to work with people with big ideas and build beautiful products together."}
+      ],
+      "background": "#DEDEDE"
+    }
+}

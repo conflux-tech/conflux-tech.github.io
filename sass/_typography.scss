@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: url("../static/fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SourceSansPro-Light";
+  src: url("../static/fonts/SourceSansPro-Light.ttf");
+}
+
+body {
+    font-family: "SourceSansPro-Regular", sans-serif;
+    font-size: 20px;
+    color: $color_text;
+}
