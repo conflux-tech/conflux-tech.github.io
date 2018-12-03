@@ -4,7 +4,7 @@ const autoprefixer = require('autoprefixer');
 module.exports = {
   pathPrefix: `/conflux-tech.github.io`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Web and Mobile App Development in Thailand for Startups and Enterprises | Conflux`,
   },
   plugins: [
     `gatsby-plugin-react-next`,
@@ -28,6 +28,13 @@ module.exports = {
         name: `data`,
         path: `${__dirname}/src/data/`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-36469018-9",
+        head: false
+      }
     },
     `gatsby-transformer-json`
   ],

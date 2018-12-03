@@ -1,8 +1,8 @@
 import React from 'react';
 
 const WhatWeDo = props =>
-  (<section className="section">
-    <div className="container section-content" id="what-we-do-section" data-background={props.background}>
+  (<section className="section" id="why-section">
+    <div className="container section-content" data-background={props.background} data-text-color={props.textColor}>
       <h3 className="text-center">{props.title}</h3>
       <br />
       <div className="row justify-content-md-center">

@@ -1,5 +1,8 @@
 .header {
     width: 100%;
+    position: fixed;
+    z-index: 2;
+    background: #FFF;
     &-content {
         height: 120px;
         display: flex;
@@ -14,7 +17,13 @@
         align-items: center;
         justify-content: space-between;
         &-item {
-            margin-right: 10px;
+            margin-right: 30px;
+            a {
+                color: #505457;
+                &.active {
+                    text-decoration: underline !important;
+                }
+            }
         }
     }
 }
