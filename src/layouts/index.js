@@ -48,10 +48,14 @@ class TemplateWrapper extends React.Component {
           <meta property="og:description" content="We use talent and technology to design and build Web and Mobile Apps for Startups and Enterprises. Get a quote on your project now." />
           <meta property="og:url" content="https://conflux.tech" />
           <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://conflux.tech/images/preview.png" />
           <meta property="twitter:title" content="Web and Mobile App Development in Thailand | Conflux Tech" />
           <meta property="twitter:url" content="https://conflux.tech" />
+          <meta property="twitter:image" content="https://conflux.tech/images/preview.png" />
           <meta name="keywords" content="conflux, conflux tech, startup, web development, mobile development, thailand, web development in thailand, mobile app development in thailand" />
           <link rel="canonical" href="https://conflux.tech" />
+          <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+          <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
         </Helmet>
         {this.props.children()}
       </div>

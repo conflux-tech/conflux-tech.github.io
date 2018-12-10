@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from '../button';
+import './_what-we-do.scss';
 
 const WhatWeDo = props =>
   (<section className="section" id="why-section">
@@ -16,6 +18,10 @@ const WhatWeDo = props =>
                 {item.text}
             </p>),
           )}
+          <br />
+          <div className="btn-container">
+            <Button text="Work with us" link="mailto:info@conflux.tech" />
+          </div>
         </div>
       </div>
     </div>

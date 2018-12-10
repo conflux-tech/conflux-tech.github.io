@@ -1,0 +1,14 @@
+#why-section {
+  .btn-container {
+    text-align: center;
+    .button {
+      font-size: 0.9rem;
+      color: #505457;
+      border-color: #505457;
+      &:hover {
+        color: #DEDEDE !important;
+        background: #505457 !important;
+      }
+    }
+  }
+}
