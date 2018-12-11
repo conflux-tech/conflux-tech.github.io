@@ -53,6 +53,7 @@ class TemplateWrapper extends React.Component {
           <meta property="twitter:url" content="https://conflux.tech" />
           <meta property="twitter:image" content="https://conflux.tech/images/preview.png" />
           <meta name="keywords" content="conflux, conflux tech, startup, web development, mobile development, thailand, web development in thailand, mobile app development in thailand" />
+          <meta name="google-site-verification" content="VGX_sKkC_A0LTDNYF-QXuISDoiYD7GFj0QpKQ3TGZf4" />
           <link rel="canonical" href="https://conflux.tech" />
           <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
           <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
