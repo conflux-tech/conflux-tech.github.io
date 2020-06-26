@@ -25,11 +25,20 @@
       text-align: left;
       padding-top: 200px;
       padding-bottom: 200px;
+      @include respond(phone) {
+        padding: 20px;
+        text-align: center;
+      }
     }
 
     &__right {
       padding-top: 200px;
       text-align: right;
+
+      @include respond(phone) {
+        padding: 20px;
+        text-align: center;
+      }
 
       h1 {
         font-weight: lighter;
@@ -70,6 +79,9 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  @include respond(phone) {
+    justify-content: center;
+  }
 
   a {
     display: flex;
