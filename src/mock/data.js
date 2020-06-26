@@ -48,7 +48,7 @@ export const about2Data = {
       title: 'For Startups and Small Businesses',
       subtitle: 'design and development teams',
       description:
-        'From building minimum-viable-products to managing existing products, we have created product teams and managed them within Conflux. We work with companies of different stages and together we build products and launch them.',
+        'We work with companies of different stages and together we build and launch products. From building minimum-viable-products to maintaining and improving existing products, we have product ready to work with you. ',
     },
     {
       id: uuidv4(),
@@ -62,7 +62,7 @@ export const about2Data = {
       title: 'Technical Co-Founding',
       subtitle: 'end-to-end technical service',
       description:
-        'From technical architecture, training, design, review, hiring, forming cultures, and setting up processes --  we can provide end-to-end analysis of your business and products. Leave the technology to us and focus on the important aspects of your business instead.',
+        'From technical architecture, training, design, forming cultures, and setting up processes. At Conflux, we can provide end-to-end technical service for your business and products. Leave the technology to us so you can focus on growing your business.',
     },
   ],
 };
@@ -110,22 +110,22 @@ export const servicesData = [
   {
     title: 'State-of-the-art web applications',
     description:
-      'We are experts at building solid, reliable, and fast web applications from the ground up. We’re industry agnostic.',
+      'We are experts at building fast and reliable web applications from the ground up.',
     tools: [
       {
         name: 'Go',
         description:
-          'Go is an extremely efficient language for developers to write high peforming implementations. It is best used for micro-service oriented architectures or high-performance applications.',
+          'Go is an extremely efficient language for developers for developing high peformance back-end service. It is best used for micro-service oriented architectures and high-performance applications.',
       },
       {
         name: 'NodeJS',
         description:
-          'NodeJS are loved by developers for its development speed. It is a great choice for building Minimum Viable Products (MVP) and a fast "Go to Market" applications',
+          'NodeJS are mostly used by developers for its development speed. It is a great choice for building Minimum Viable Products (MVP) and a fast "Go to Market" applications',
       },
       {
         name: 'ReactJS',
         description:
-          'ReactJS is a proven framework to build remarkable and beatifully crafted user interfaces for your web applications.',
+          'ReactJS is a proven framework for building remarkable and beatifully crafted user interfaces and experience for your web applications.',
       },
     ],
   },

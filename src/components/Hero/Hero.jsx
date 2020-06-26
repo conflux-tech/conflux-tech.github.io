@@ -20,7 +20,7 @@ const Header = () => {
     }
   }, []);
 
-  const adj = ['beautiful', 'delightful', 'amazing', 'fast', 'scalable'];
+  const adj = ['beautiful', 'delightful', 'amazing', 'fast', 'scalable', 'reliable'];
   const rand = Math.floor(Math.random() * adj.length);
 
   return (
