@@ -7,7 +7,7 @@ export const headData = {
   description:
     'We are a team of individuals that brings together talents from Product Development, Software Engineering and UI/UX design.', // e.g: Welcome to my website
   url: 'https://conflux.tech',
-  ogImage: 'src/images/webandmobiledevelopment.png',
+  ogImage: 'webandmobiledevelopment.png',
   keywords: [
     'conflux',
     'startup',

@@ -17,7 +17,7 @@ export default () => {
         <meta name="description" content={description || 'Conflux'} />
         <meta property="description" content={description} />
         <meta property="og:site_name" content="Conflux" />
-        <meta property="og_title" content={title} />
+        <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
         <meta property="og:type" content="website" />
