@@ -1,41 +1,42 @@
-const pixrem = require('pixrem');
-const autoprefixer = require('autoprefixer');
-
 module.exports = {
-  pathPrefix: `/conflux-tech.github.io`,
-  siteMetadata: {
-    title: `Web and Mobile App Development in Thailand for Startups and Enterprises | Conflux`,
-  },
   plugins: [
-    `gatsby-plugin-react-next`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `svgo`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-postcss-sass`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        postCssPlugins: [
-          pixrem(),
-          autoprefixer({
-            browsers: ['last 2 versions']
-          })
-        ],
-        precision: 8
-      }
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`,
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Web and Mobile App Development - Conflux`,
+        short_name: `Conflux`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#02aab0`,
+        display: `standalone`,
+        icon: 'src/images/favicon-96x96.png',
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-36469018-9",
-        head: false
-      }
+        trackingId: 'UA-36469018-9',
+        head: false,
+      },
     },
-    `gatsby-transformer-json`
   ],
-}
+};

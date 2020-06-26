@@ -1,0 +1,106 @@
+/* Call to Action Button */
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem $default-font-size;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  }
+}
+
+/* Hero Style */
+.cta-btn--hero {
+  color: $white-color;
+  border: 2px solid $white-color;
+  border-image-slice: 1;
+  &::after {
+    background: $white-color;
+    color: #000;
+    // Responsive Button hero style
+    @include respond(phone) {
+      background-image: none;
+    }
+  }
+
+  &:hover {
+    // -webkit-text-fill-color: $white-color;
+    color: $secondary-color;
+    text-decoration: none;
+    // Responsive Button hover hero style
+    @include respond(phone) {
+      -webkit-text-fill-color: $secondary-color;
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/* About Style */
+.cta-btn--about {
+  margin-top: 100px;
+  color: $secondary-color;
+  border: 2px solid $secondary-color;
+  border-image-slice: 1;
+  font-size: 2.5rem;
+  &::after {
+    background: $secondary-color;
+    color: white;
+    // Responsive Button about style
+    @include respond(phone) {
+      background-image: none;
+    }
+  }
+
+  &:hover {
+    // -webkit-text-fill-color: $white-color;
+    color: $white-color;
+    text-decoration: none;
+    // Responsive Button hover hero style
+    @include respond(phone) {
+      -webkit-text-fill-color: $white-color;
+    }
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/* Resume Style */
+.cta-btn--resume {
+  color: $white-color;
+  border: 2px solid $white-color;
+
+  &::after {
+    background: $white-color;
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/* Arrow Button */
+.up i {
+  color: #272727;
+}

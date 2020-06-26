@@ -1,0 +1,145 @@
+#about2 {
+  background-color: #be0f4e;
+  color: $white-color;
+  min-height: 100vh;
+  position: relative;
+
+  .about2-wrapper {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    @include respond(phone) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 45px;
+      margin-bottom: 40px;
+
+      @include respond(phone) {
+        font-size: 2.5rem;
+      }
+    }
+
+    &__left {
+      flex: 0 50%;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 200px;
+      align-self: flex-start;
+      text-align: left;
+      padding-right: 72px;
+
+      @include respond(phone) {
+        flex: 1;
+        position: relative;
+        padding-right: 0;
+        top: 0;
+        z-index: 1;
+        min-width: 90vw;
+
+        p {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    &__right {
+      flex: 1;
+      margin-top: 60px;
+      padding-left: 72px;
+      z-index: 1;
+
+      @include respond(phone) {
+        flex: 1;
+        position: relative;
+        padding-left: 0;
+      }
+
+      .about2-business {
+        list-style: none;
+        text-align: left;
+        padding-bottom: 75px;
+        padding-top: 75px;
+        border-bottom: 2px solid transparentize($color: #be0f4e, $amount: 0.9);
+
+        &:last-child {
+          margin-bottom: 0px;
+          border: none;
+        }
+
+        &:first-child {
+          padding-top: 0px;
+        }
+
+        &-title,
+        &-subtitle {
+          color: #002f5f;
+        }
+
+        &-title {
+          font-weight: bold;
+          font-size: 36px;
+        }
+
+        &-subtitle {
+          text-transform: uppercase;
+        }
+
+        &-description {
+          margin-top: 30px;
+          color: $secondary-color;
+        }
+
+        @include respond(phone) {
+          &-title,
+          &-subtitle,
+          &-description {
+            color: $white-color;
+            padding-left: 72px;
+          }
+
+          &-title {
+            font-size: 2rem;
+          }
+
+          &-description {
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 50vw;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #be0f4e;
+      margin: 0;
+      @include respond(phone) {
+        width: 100vw;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+
+    &::after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 49.5vw;
+      height: 100%;
+      top: 0;
+      right: 0;
+      background-color: $white-color;
+      margin: 0;
+    }
+  }
+}
