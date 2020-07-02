@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Conflux - Web & Mobile App Development', // e.g: 'Name | Developer'
+  title: 'Conflux | Web & Mobile App Development Company | Bangkok, Thailand', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description:
     'We are a team of individuals that brings together talents from Product Development, Software Engineering and UI/UX design.', // e.g: Welcome to my website
@@ -10,14 +10,15 @@ export const headData = {
   ogImage: 'webandmobiledevelopment.png',
   keywords: [
     'conflux',
-    'startup',
-    'web development',
-    'mobile development',
-    'web app development',
-    'mobile app development',
+    'conflux thailand',
+    'startup company',
+    'web development company',
+    'mobile development company',
+    'web app development company',
+    'mobile app development company',
     'ui/ux design',
-    'mobile app development in thailand',
-    'web development in thailand',
+    'mobile app development company in thailand',
+    'web development company in thailand',
     'startup in thailand',
   ],
 };
@@ -33,7 +34,7 @@ export const aboutData = {
   paragraphOne:
     'We are a team of individuals that brings together talents from Product Development, Software Engineering and UI/UX design.',
   paragraphTwo:
-    'Our mission is to make products that will bring delightful experiences to our users and apps that deliver revenue.',
+    'Our mission is to help shape the future of businesses by bringing delightful digital experiences to our users and boost profits & efficiency to our apps.',
 };
 
 // ABOUT2 DATA - WHO WE WORK WITH
@@ -46,14 +47,14 @@ export const about2Data = {
     {
       id: uuidv4(),
       title: 'For Startups and Small Businesses',
-      subtitle: 'design and development teams',
+      subtitle: 'exceptional product development teams',
       description:
-        'We work with companies of different stages and together we build and launch products. From building minimum-viable-products to maintaining and improving existing products, we have product ready to work with you. ',
+        'We work with companies of different stages and together we build and launch products. From building minimum-viable-products to maintaining and improving existing products, we have exceptional product teams ready to work with you.',
     },
     {
       id: uuidv4(),
       title: 'Enterprise Solutions',
-      subtitle: 'digital transformation and solutions',
+      subtitle: 'tailored digital transformation and solutions',
       description:
         'We provide alternative software solutions for enterprises. Meticulously custom-built to fit the needs of each company.',
     },
@@ -62,7 +63,7 @@ export const about2Data = {
       title: 'Technical Co-Founding',
       subtitle: 'end-to-end technical service',
       description:
-        'From technical architecture, training, design, forming cultures, and setting up processes. At Conflux, we can provide end-to-end technical service for your business and products. Leave the technology to us so you can focus on growing your business.',
+        'From technical architecture, training, design, forming cultures, and setting up processes. At Conflux, we can provide an end-to-end technical service for your business and products. Leave the technology to us so you can focus on growing your business.',
     },
   ],
 };
